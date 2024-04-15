@@ -76,3 +76,32 @@ position: relative;
     color: wheat;
     border-bottom: 2px dashed rgba(255, 255, 255, 0.6) ;
 }
+
+section#mais {
+    width: 100%;
+    background-color: brown;
+    height: auto;
+    color: white;
+    padding: 20px 0 40px 0;
+}
+
+section#mais h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.mais li {
+    list-style-type: circle;
+    margin-left: 40px;
+}
+.mais li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: beige;
+    font-size: 1.2rem;
+}
+.mais li a:hover{
+  color: rgb(54, 5, 5);
+  font-weight: 700;
+}
