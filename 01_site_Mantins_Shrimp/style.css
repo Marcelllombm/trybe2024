@@ -105,3 +105,33 @@ section#mais h1 {
   color: rgb(54, 5, 5);
   font-weight: 700;
 }
+
+article{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sectionMantis p {
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.headerMantis img{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.headerMantis{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.headerMantis h1{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
