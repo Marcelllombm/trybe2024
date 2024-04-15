@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color:rgb(240, 222, 222);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+header img {
+    border-radius: 50%;
+    border:3px solid rgb(112, 0, 0);
+    margin:10px 0;
+    padding:10px;
+}
+header h1 {
+    text-transform:uppercase;
+}
+header ul {
+    display: flex;
+   justify-content: center;
+   margin: 20px 0 20px 0;
+}
+header ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+header ul li a{
+    text-decoration:none;
+    color:rgb(112, 0, 0) ;
+}
+
+header ul li a:hover{
+    text-decoration:dashed;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(112, 0, 0) ;
+    
+}
