@@ -41,3 +41,15 @@ header ul li a:hover{
     border-bottom: 3px solid rgb(112, 0, 0) ;
     
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: darkgray;
+    padding: 15px;
+}
+footer img {
+    width: 60px;
+}
