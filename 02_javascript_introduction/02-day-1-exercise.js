@@ -20,3 +20,12 @@ console.log(`Multiplicação: ${numbOne * numbTwo} `);
 console.log(`Divisão: ${numbOne / numbTwo} `);
 console.log(`Módulo: ${numbOne % numbTwo} `);
 
+/*
+Exercício 2
+Utilize if/else para escrever um código que retorne o maior de dois números.
+ Defina, no começo do seu código, duas variáveis com os valores que serão comparados.
+ */
+
+ const numeroMaior = numbOne > numbTwo ? `o numero 1 e Maior ${numbOne}` : `o numero 2 e Maior ${numbTwo}`;
+
+ console.log(numeroMaior);
