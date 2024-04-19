@@ -110,3 +110,20 @@ switch(chessPiece.toLocaleLowerCase()){
     console.log('Erro, peça inválida!');
 };
 
+console.log("////////// Exercício 6 ////////////////////");
+/*
+Utilize if...else para escrever um código que defina três números 
+em variáveis e retorne true se pelo menos uma das três for par.
+ Caso contrário, o código deve retornar false.
+Faça esse exercício utilizando somente um if.
+*/
+
+const evenNumberOne = 3;
+const evenNumberTwo = 3;
+const evenNumberThree = 9;
+
+if((evenNumberOne % 2 === 0 || evenNumberTwo % 2 === 0 || evenNumberThree % 2 === 0)){
+  console.log("existe um numero par")
+}else{
+  console.log("existe um numero ímpar")
+}
