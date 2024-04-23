@@ -117,16 +117,47 @@ n = 5
 *****
 *****
  */
-let n = 5;
+let number = 5;
 let symbol  = "*";
 let inputLine = '';
 
-for(let index = 1; index <= n; index += 1){
+for(let index = 1; index <= number; index += 1){
 inputLine += symbol 
 }
 
-for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+for (let lineIndex = 0; lineIndex < number; lineIndex += 1) {
   console.log(inputLine);
 };
 
+console.log("////////// day - 2 #### Exercício 5 ////////////////////");
+/*
+Agora, inverta o lado do triângulo. Por exemplo:
 
+n = 5
+
+    *
+   **
+  ***
+ ****
+*****
+
+*/
+
+
+let numberTriang = 5;
+let symbolTriang = '*';
+let inputLineTriang = '';
+let inputPosition = numberTriang - 1;
+
+for (let lineIndex = 0; lineIndex < numberTriang; lineIndex += 1) {
+  for (let columnIndex = 0; columnIndex < numberTriang; columnIndex += 1) {
+    if (columnIndex < inputPosition) {
+      inputLineTriang = inputLineTriang + ' ';
+    } else {
+      inputLineTriang = inputLineTriang + symbolTriang;
+    }
+  }
+  console.log(inputLineTriang);
+  inputLineTriang = '';
+  inputPosition -= 1;
+};
