@@ -84,3 +84,80 @@ for(let index = 1; index <= factorialNumber; index += 1){
 }
 
 console.log(numberMult)
+
+console.log("////////// day - 2 #### Exercício 3 ////////////////////");
+/*
+Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, 
+troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
+    */
+let fruit = "banana";
+let wordFruit = fruit.split("").reverse().join("");
+
+console.log(wordFruit)
+
+let word = 'tryber';
+let reverseWord = '';
+
+for (let index = word.length - 1; index >= 0; index -= 1) {
+  reverseWord += word[index];
+};
+
+console.log(reverseWord);
+
+console.log("////////// day - 2 #### Exercício 4 ////////////////////");
+
+/*
+Escreva um algoritmo que, dado um valor n, sendo n > 1, 
+imprima na tela um quadrado feito de asteriscos de tamanho n. Por exemplo:
+n = 5
+
+*****
+*****
+*****
+*****
+*****
+ */
+let n = 5;
+let symbol  = "*";
+let inputLine = '';
+
+for(let index = 1; index <= n; index += 1){
+inputLine += symbol 
+}
+
+for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  console.log(inputLine);
+};
+
+
+console.log("////////// day - 2 #### Exercício 5 ////////////////////");
+/*
+Agora, inverta o lado do triângulo. Por exemplo:
+
+n = 5
+
+    *
+   **
+  ***
+ ****
+*****
+
+*/
+
+let n = 5;
+let symbol = '*';
+let inputLine = '';
+let inputPosition = n - 1;
+
+for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  for (let columnIndex = 0; columnIndex < n; columnIndex += 1) {
+    if (columnIndex < inputPosition) {
+      inputLine = inputLine + ' ';
+    } else {
+      inputLine = inputLine + symbol;
+    }
+  }
+  console.log(inputLine);
+  inputLine = '';
+  inputPosition -= 1;
+};
