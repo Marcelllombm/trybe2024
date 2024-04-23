@@ -1,4 +1,4 @@
-console.log("////////// Exercício 1 ////////////////////");
+console.log("//////////  day - 2 #### Exercício 1 ////////////////////");
 /*
 const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
@@ -60,3 +60,27 @@ for (let index = 0; index < numbers.length; index += 1) {
   } else {
     console.log(`1.6:  ${oddNumber}`);
   };
+
+  console.log("////////// day - 2 #### Exercício 2 ////////////////////");
+/*
+
+ O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. Por exemplo:
+
+O fatorial é representado pelo sinal `!`
+
+Exemplo de 4 fatorial:
+
+4! = 4 x 3 x 2 x 1 = 24
+
+Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10.
+*/
+
+let factorialNumber = 4;
+let numberMult = 1;
+
+for(let index = 1; index <= factorialNumber; index += 1){
+    console.log(index)
+    numberMult *= index;
+}
+
+console.log(numberMult)
